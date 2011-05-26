@@ -1,0 +1,93 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{D0125441-B969-4B80-A3AA-4FB7044EB956}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\antlr.runtime.dll = Lib\antlr.runtime.dll
+		Lib\Common.Logging.dll = Lib\Common.Logging.dll
+		Lib\Common.Logging.Log4Net.dll = Lib\Common.Logging.Log4Net.dll
+		Lib\Interop.MSMQ.dll = Lib\Interop.MSMQ.dll
+		Lib\log4net.dll = Lib\log4net.dll
+		Lib\NServiceBus.dll = Lib\NServiceBus.dll
+		Lib\NServiceBus.Saga.dll = Lib\NServiceBus.Saga.dll
+		Lib\NServiceBus.Serialization.dll = Lib\NServiceBus.Serialization.dll
+		Lib\NServiceBus.Serializers.Binary.dll = Lib\NServiceBus.Serializers.Binary.dll
+		Lib\NServiceBus.Serializers.Configure.dll = Lib\NServiceBus.Serializers.Configure.dll
+		Lib\NServiceBus.Serializers.XML.dll = Lib\NServiceBus.Serializers.XML.dll
+		Lib\NServiceBus.Unicast.Config.dll = Lib\NServiceBus.Unicast.Config.dll
+		Lib\NServiceBus.Unicast.dll = Lib\NServiceBus.Unicast.dll
+		Lib\NServiceBus.Unicast.Subscriptions.dll = Lib\NServiceBus.Unicast.Subscriptions.dll
+		Lib\NServiceBus.Unicast.Subscriptions.Msmq.dll = Lib\NServiceBus.Unicast.Subscriptions.Msmq.dll
+		Lib\NServiceBus.Unicast.Transport.dll = Lib\NServiceBus.Unicast.Transport.dll
+		Lib\NServiceBus.Unicast.Transport.Msmq.dll = Lib\NServiceBus.Unicast.Transport.Msmq.dll
+		Lib\ObjectBuilder.dll = Lib\ObjectBuilder.dll
+		Lib\ObjectBuilder.SpringFramework.dll = Lib\ObjectBuilder.SpringFramework.dll
+		Lib\Spring.Aop.dll = Lib\Spring.Aop.dll
+		Lib\Spring.Core.dll = Lib\Spring.Core.dll
+		Lib\Utils.dll = Lib\Utils.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{02F8F9DE-B513-48B3-AA3A-84436A471C14}"
+	ProjectSection(SolutionItems) = preProject
+		msmq_install.vbs = msmq_install.vbs
+		MSMQ_start.cmd = MSMQ_start.cmd
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7ABDC31-6480-44A7-885B-E1A5C88F8593}"
+	ProjectSection(SolutionItems) = preProject
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleLib", "SimpleLib", "{B8E23186-D830-4560-826F-AE314BC6A274}"
+	ProjectSection(SolutionItems) = preProject
+		SimpleLib\NServiceBus_MergeAssemblies.cmd = SimpleLib\NServiceBus_MergeAssemblies.cmd
+		SimpleLib\NServiceBusAll.dll = SimpleLib\NServiceBusAll.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{F9F611B9-3FBA-47F9-B0F2-FEB1F98616A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheirSystem", "TheirSystem\TheirSystem.csproj", "{1047B532-CE31-4724-8FB3-65929F33BA2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheOtherSystem", "TheOtherSystem\TheOtherSystem.csproj", "{694006A6-6FC7-4FF5-85E7-C19CDBE1908D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OurSystem", "OurSystem\OurSystem.csproj", "{BAFC40EC-B6E3-4E4E-BAB7-51695D4E71D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalSystem", "ExternalSystem\ExternalSystem.csproj", "{D0EA9DC5-9A6E-477D-9311-6445E81900AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utils\Utilities.csproj", "{646652F5-0B4D-40F3-AE11-E3DA671738EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9F611B9-3FBA-47F9-B0F2-FEB1F98616A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F611B9-3FBA-47F9-B0F2-FEB1F98616A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F611B9-3FBA-47F9-B0F2-FEB1F98616A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F611B9-3FBA-47F9-B0F2-FEB1F98616A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1047B532-CE31-4724-8FB3-65929F33BA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1047B532-CE31-4724-8FB3-65929F33BA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1047B532-CE31-4724-8FB3-65929F33BA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1047B532-CE31-4724-8FB3-65929F33BA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694006A6-6FC7-4FF5-85E7-C19CDBE1908D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694006A6-6FC7-4FF5-85E7-C19CDBE1908D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694006A6-6FC7-4FF5-85E7-C19CDBE1908D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694006A6-6FC7-4FF5-85E7-C19CDBE1908D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFC40EC-B6E3-4E4E-BAB7-51695D4E71D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFC40EC-B6E3-4E4E-BAB7-51695D4E71D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFC40EC-B6E3-4E4E-BAB7-51695D4E71D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFC40EC-B6E3-4E4E-BAB7-51695D4E71D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0EA9DC5-9A6E-477D-9311-6445E81900AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0EA9DC5-9A6E-477D-9311-6445E81900AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0EA9DC5-9A6E-477D-9311-6445E81900AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0EA9DC5-9A6E-477D-9311-6445E81900AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646652F5-0B4D-40F3-AE11-E3DA671738EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646652F5-0B4D-40F3-AE11-E3DA671738EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646652F5-0B4D-40F3-AE11-E3DA671738EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646652F5-0B4D-40F3-AE11-E3DA671738EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
