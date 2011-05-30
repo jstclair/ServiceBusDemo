@@ -1,10 +1,10 @@
 REQUIREMENTS:
 
-1. You must have Microsoft Message Queueing (MSMQ) installed on your machine. If running Vista, this is probably already installed, but you may have stopped the service. 
+1. You must have Microsoft Message Queueing (MSMQ) installed on your machine. If running Vista/Windows7, this is probably already installed, but you may have stopped the service. 
 
-2. From an elevated command prompt (Vista), run:
+2. From an elevated command prompt, run:
 a. MSMQ_start.cmd: This starts the MSMQ service.
-b. msmq_install.vbs: This will install the required queues for this demo (and will delete them first if they already exist).
+b. msmq_install.ps1: (Powershell) This will install the required queues for this demo and assign the correct ACLs for IIS 7.5 (and will delete them first if they already exist).
 
 
 SCENARIOS:

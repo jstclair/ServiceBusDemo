@@ -28,7 +28,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{D0125441-B96
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{02F8F9DE-B513-48B3-AA3A-84436A471C14}"
 	ProjectSection(SolutionItems) = preProject
-		msmq_install.vbs = msmq_install.vbs
+		msmq_install.ps1 = msmq_install.ps1
 		MSMQ_start.cmd = MSMQ_start.cmd
 		README.txt = README.txt
 	EndProjectSection
