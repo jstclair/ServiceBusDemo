@@ -1,4 +1,4 @@
-REQUIREMENTS:
+# REQUIREMENTS #
 
 1. You must have Microsoft Message Queueing (MSMQ) installed on your machine. If running Vista/Windows7, this is probably already installed, but you may have stopped the service. 
 
@@ -7,7 +7,7 @@ a. MSMQ_start.cmd: This starts the MSMQ service.
 b. msmq_install.ps1: (Powershell) This will install the required queues for this demo and assign the correct ACLs for IIS 7.5 (and will delete them first if they already exist).
 
 
-SCENARIOS:
+## SCENARIOS ##
 1. [As Is]: Run the demo, and send messages by pressing Enter in the OurSystem console.
 2. [As Is]: Take down any of the dependent systems (by closing the console, or typing "q" and pressing Enter). Send some messages -- systems still running will process the current messages. Bring the systems back up (by right-clicking the project in VS, and choosing "Debug, Start New Instance"). Messages will be delivered. If you have taken down ExternalSystem, note that replies are delivered on outstanding requests back to TheirSystem.
 3. [Durable]: Note the comments in the Messages project. By default, messages are stored in memory; add the attribute in order to guarantee that messages are persisted to disk. For more info, you can see: http://msdn.microsoft.com/en-us/library/ms978430.aspx
@@ -63,5 +63,3 @@ Start the demo, and open a Windows Explorer window to the "bin" directory of Ext
 />
 
 Rerun the demo, and note how various systems receive multiple messages before processing them. Again, you can dial up the number to around 20 for ExternalSystem, and then send a batch from OurSystem of 40. Total time to process the messages should not exceed approx. 16 seconds.
-
-
