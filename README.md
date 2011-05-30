@@ -1,6 +1,6 @@
 # REQUIREMENTS #
 
-1. You must have Microsoft Message Queueing (MSMQ) installed on your machine. If running Vista/Windows7, this is probably already installed, but you may have stopped the service. 
+1. You must have Microsoft Message Queuing (MSMQ) installed on your machine. If running Vista/Windows7, this is probably already installed, but you may have stopped the service. 
 
 2. From an elevated command prompt, run:
 a. MSMQ_start.cmd: This starts the MSMQ service.
