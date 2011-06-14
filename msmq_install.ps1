@@ -16,6 +16,9 @@ function Create-Queue($queueName, $userName) {
 	 }
 }
 
+function Set-QueueAcls($queueName, $userName, $acl) {
+}
+
 $queues = ".\private$\messagebus", ".\private$\subscriptions", ".\private$\error", ".\private$\client", ".\private$\worker", ".\private$\worker2", ".\private$\external"
 $appPoolUser = "DefaultAppPool" # Win7/2008 + IIS 7.5
 
