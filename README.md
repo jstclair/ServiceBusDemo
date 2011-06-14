@@ -5,7 +5,7 @@
 2. From an elevated command prompt, run:
 a. MSMQ_start.cmd: This starts the MSMQ service.
 b. msmq_install.ps1: (Powershell) This will install the required queues for this demo and assign the correct ACLs for IIS 7.5 (and will delete them first if they already exist).
-
+c. You may need to review the 'msmq_install.ps1' file before running it.
 
 ## SCENARIOS ##
 1. [As Is]: Run the demo, and send messages by pressing Enter in the OurSystem console.
