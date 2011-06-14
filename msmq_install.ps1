@@ -1,5 +1,6 @@
 [Reflection.Assembly]::LoadWithPartialName("System.Messaging")
-Function Delete-Queue($queueName) {
+
+function Delete-Queue($queueName) {
     if ([System.Messaging.MessageQueue]::Exists($queueName))
     {
         [System.Messaging.MessageQueue]::Delete($queueName)
@@ -7,7 +8,7 @@ Function Delete-Queue($queueName) {
     }
 }
 
-Function Create-Queue($queueName, $userName) {
+function Create-Queue($queueName, $userName) {
     $qb = [System.Messaging.MessageQueue]::Create($queueName)
 	 if ($userName) {
 	    $acl = ([System.Messaging.MessageQueueAccessRights]::GenericRead -bor [System.Messaging.MessageQueueAccessRights]::GenericWrite)
